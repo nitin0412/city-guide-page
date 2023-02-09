@@ -1,0 +1,76 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+img {
+    width: 100px;
+}
+.hero{
+    background-image: url("https://thrillingtravel.in/wp-content/uploads/2019/08/1024px-Charminar_india.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px 5%;
+    margin-bottom: 0;
+}
+.title{
+    background: #1D3557;
+    color: #F1FAEE;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+}
+.sub-title{
+    background: #457B9D;
+    color: #F1FAEE;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px 10% 0 10%;
+}
+
+/* Second Div*/
+
+.activities{
+    background: #F1FAEE;
+    padding: 30px 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.images{
+    border-radius: 100%;
+}
+h2,h3,h4,p{
+    color: #1D3557;
+}
+
+/* Third Div*/
+
+.guide{
+    width:400px;
+    background: skyblue;
+    margin: 40px auto 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 8px solid #1D3557;
+    display: flex;
+    justify-content: space-around;
+}
+.my-pic{
+    width: 200px;
+    border-radius: 10px;
+}
+
